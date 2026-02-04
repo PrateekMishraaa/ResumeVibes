@@ -7,7 +7,7 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 
 // Components
 import AnimatedLayout from './components/Layout/AnimatedLayout.jsx';
-import ProtectedRoute from './components/Common/ProtectedRoute.jsx';
+import ProtectedRoute from './components/Common/ProtectedRoute';
 
 // Pages
 import Home from './pages/Home';

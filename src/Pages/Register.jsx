@@ -157,7 +157,7 @@ const Register = () => {
               </div>
 
               {/* Confirm Password */}
-              <div>
+              {/* <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Confirm Password
                 </label>
@@ -180,7 +180,7 @@ const Register = () => {
                     {errors.confirmPassword.message}
                   </p>
                 )}
-              </div>
+              </div> */}
 
               <button
                 type="submit"
