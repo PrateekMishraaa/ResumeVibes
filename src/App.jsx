@@ -6,8 +6,8 @@ import { Toaster } from 'react-hot-toast';
 import { AuthProvider, useAuth } from './context/AuthContext';
 
 // Components
-import AnimatedLayout from './components/Layout/AnimatedLayout';
-import ProtectedRoute from './components/Common/ProtectedRoute';
+import AnimatedLayout from './components/Layout/AnimatedLayout.jsx';
+import ProtectedRoute from './components/Common/ProtectedRoute.jsx';
 
 // Pages
 import Home from './pages/Home';
